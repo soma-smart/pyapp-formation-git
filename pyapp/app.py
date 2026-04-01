@@ -1,11 +1,9 @@
 import argparse
 
 
-def add(a: int, b: int) -> int:
-    return a + b
-
-
-def subtract(a: int, b: int) -> int:
+def calculate(operation: str, a: int, b: int) -> int:
+    if operation == "add":
+        return a + b
     return a - b
 
 
@@ -16,10 +14,7 @@ def main() -> None:
     parser.add_argument("b", type=int)
     args = parser.parse_args()
 
-    if args.operation == "add":
-        print(add(args.a, args.b))
-    else:
-        print(subtract(args.a, args.b))
+    print(calculate(args.operation, args.a, args.b))
 
 
 if __name__ == "__main__":
