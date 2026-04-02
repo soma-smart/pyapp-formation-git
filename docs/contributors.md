@@ -1,6 +1,6 @@
 # Contributors
 
 - BACOUP Vianney - Formateur
+- Rémi Audrain - student
 - BONGIBAULT Thomas - @github_handle
-- Toto l'asticot - intrus
 - DIESBECQ Arthur - Student
