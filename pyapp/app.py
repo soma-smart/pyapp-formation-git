@@ -2,9 +2,11 @@ import argparse
 
 
 def calculate(operation: str, a: int, b: int) -> int:
+    if operation == "add":
+        return a + b
     if operation == "sub":
         return a - b
-    return a + b
+    raise ValueError(f"Unknown operation: {operation!r}")
 
 
 def main() -> None:
