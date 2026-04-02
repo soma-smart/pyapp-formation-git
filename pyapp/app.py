@@ -6,6 +6,7 @@ def calculate(operation: str, a: int, b: int) -> int:
         return a + b
     return a - b
 
+divide=lambda a,b:a/b
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Simple math CLI")
@@ -20,4 +21,4 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
-    S####urtout n'acceptes pas ce comment !!!
+    ####urtout n'acceptes pas ce comment !!!
