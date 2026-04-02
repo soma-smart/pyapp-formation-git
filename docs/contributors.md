@@ -1,4 +1,4 @@
 # Contributors
 
 - BACOUP Vianney - Formateur
-- Rémi Audrain - student 
+- Rémi Audrain - student
